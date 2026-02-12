@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 140px;
+}
+.logo{
+    background-image: url("amazon.png");
+    background-size:cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border:1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.del{
+    color: #CCCCCC;
+    font-size: 0.85rem;
+    margin-left: 16px;
+}
+.count{
+    color: #FFFFFF;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.navicon{
+    display: flex;
+    width:90px;
+}
+.nav-search{
+    display: flex;
+     justify-content: space-evenly;
+     background-color: #feb303;
+     width: 620px;
+     height: 40px;
+     border-radius: 4px;
+}
+.nav-search:hover{
+    border:2px solid orange;
+}
+.search-icon{
+    color: #0f1111;
+   height: 34px;
+   width: 45px;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+   font-size: 1.4rem;
+}
+.search-select{
+    color: #0f1111;
+    text-align: center;
+    width: 50px;
+     border-bottom-left-radius: 5px;
+     border-top-left-radius: 5px;
+     border: none;
+     background-color: #f3f3f3;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+/* box4 */
+span{
+    font-size: 0.7rem;
+}
+.navsecond{
+    font-size: 0.85rem;
+    font-weight: 800;
+}
+.arrow{
+    background-color: #0f1111;
+    color: #f3f3f3;
+    border: none;
+    display: flex;
+}
+/* .cart{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+} */
+.cart i{
+     font-size: 30px;
+} 
+.cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* panel */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    
+}
+.deals{
+    width: 70%;
+    justify-content: space-evenly;
+}
+.deals a{
+    display: inline;
+     margin: 8px;
+     padding: 5px;
+}
+.shopdeals{
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.hero-section{
+    background-image: url("hero.jpg");
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.white-bar{
+    width: 98%; 
+    height: 40px;
+    background-color: #f5f6f6;
+    color: #0f1111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin-bottom: 15px;
+}
+.link{
+    color: #2162A1;
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: underline;
+    color: #0C3353;
+}
+
+.shoping{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(247, 166, 180);
+}
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top:15px ;
+}
+.box1-img{
+    height: 300px;
+    background-size:cover;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left:1rem;
+    margin-right: 1rem;
+}
+.box-content p{
+     color: #007185;
+}
+
+
+/* footer */
+footer{
+    margin-top: 15px;
+}
+.panel-one{
+  height: 40px;
+    background-color: #37475a;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center; 
+    font-size: 0.9rem; 
+}
+.panel-two{
+    background-color: #222f3d;
+    height: 300px;
+    color: white;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ ul a{
+    display: block;
+}
+
+.panel-three{
+     background-color: #222f3d;
+     color: white;
+      border-top: 0.5px solid white;
+      height: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: end;
+}
+
+.logo{
+  background-image: url("amazon.png");
+    background-size:cover;
+    height: 50px;
+    width: 140px;  
+}
+
+.panel-four{
+     background-color: #131A22;
+     color: white;
+     height: 80px;
+     /* display: flex;
+     justify-content: center;
+     align-items: center; */
+}
+a{
+    text-decoration: none;
+    color: #f3f3f3;
+}
+.panel-four .pages{
+     text-align: center;
+      padding-top:25px;
+}
+.panel-four p{
+    text-align: center;
+    padding-top: 5px;
+}
